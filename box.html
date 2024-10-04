@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .pricing-container {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+            max-width: 1000px;
+        }
+        .pricing-plan {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .pricing-plan h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        .pricing-plan p {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .pricing-plan ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+        .pricing-plan ul li {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .pricing-plan button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .pricing-plan button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pricing-container">
+        <div class="pricing-plan">
+            <h2>Basic</h2>
+            <p>$10 / month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+
+        <div class="pricing-plan">
+            <h2>Premium</h2>
+            <p>$30 / month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+
+        <div class="pricing-plan">
+            <h2>Pro</h2>
+            <p>$50 / month</p>
+            <ul>
+                <li>Feature 1</li>
+                <li>Feature 2</li>
+                <li>Feature 3</li>
+                <li>Feature 4</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+    </div>
+
+</body>
+</html>
